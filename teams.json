@@ -1,6 +1,6 @@
 {
   "games": {
-    "lol_eu": {
+    "euw": {
       "teams": [
         {
           "name": "Fnatic",
@@ -364,7 +364,7 @@
         }
       ]
     },
-    "lol_na": {
+    "na": {
       "teams": [
         {
           "name": "Cloud9",
