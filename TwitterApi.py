@@ -5,8 +5,7 @@ import json
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 import EmotionAnalyzer as ea
 
-def get_player_emotion():
-    player = sys.argv[1]
+def get_player_emotion(player):
     player_tweets = get_last_tweets_from_player(player)
     ea.get_emotion_from_sentences(player_tweets) 
 
@@ -39,5 +38,4 @@ def get_config_info():
     with open ('config.json') as config_data:
         data = json.load(config_data)
     return data
-if __name__ == '__main__':
-    get_player_emotion()
+
