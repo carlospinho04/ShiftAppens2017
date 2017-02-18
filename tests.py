@@ -3,7 +3,7 @@
 
 import time
 import json
-from riotwatcher import RiotWatcher, NORTH_AMERICA
+from riotwatcher import RiotWatcher, NORTH_AMERICA, EUROPE_WEST
 from riotwatcher import LoLException, error_404, error_429
 
 key = 'RGAPI-8a4e9fd9-ef04-4088-ad57-f9eb445bbb7b'
@@ -11,11 +11,8 @@ key = 'RGAPI-8a4e9fd9-ef04-4088-ad57-f9eb445bbb7b'
 # if summoner doesnt have ranked teams, teams tests will fail
 # if summoner doesnt have ranked stats, stats tests will fail
 # these are not graceful failures, so try to use a summoner that has them
-summoner_name = 'FB Frozen'
-region = 'EUROPE_WEST'
 
 w = RiotWatcher(key)
-
 
 def wait():
     while not w.can_make_request():
@@ -43,9 +40,9 @@ def featured_games_tests():
     w.get_featured_games()
 
 
-def game_tests(summoner):
+def game_tests(summoner,region):
     wait()
-    x=w.get_recent_games(summoner['id'])
+    x=w.get_recent_games(summoner['id'],region =region)
     kills=0
     deaths = 0
     assists = 0
@@ -57,7 +54,9 @@ def game_tests(summoner):
         kills += x['games'][i]['stats']['championsKilled'] if 'championsKilled' in x['games'][i]['stats'] else 0
         if(x['games'][i]['stats']['win'] == True):
             wins+=1
-    print("Wins ", wins/10.0,"KDA ", (kills+assists)/(deaths)*1.000)
+    kda = (kills+assists)/(deaths*1.00)
+    wrate =wins/10.0
+    print "WinRate: ", wrate ," KDA: " ,"%.3f" % round(kda,3)
     
     return
 
@@ -135,10 +134,10 @@ def match_list_tests(summoner):
 
 
 def main():
-
-    s = w.get_summoner(name=summoner_name)
-    print('summoner tests passed')
-    game_tests(s)
+    region = EUROPE_WEST
+    name = 'PSG Steve'
+    s = w.get_summoner(name=name,region=region)
+    game_tests(s,region)
 
     #match_tests(m)
 
