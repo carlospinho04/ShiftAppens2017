@@ -5,9 +5,10 @@ import json
 from twitter import Twitter, OAuth, TwitterHTTPError, TwitterStream
 import EmotionAnalyzer as ea
 
-def get_player_emotion(player):
-    player_tweets = get_last_tweets_from_player(player)
-    ea.get_emotion_from_sentences(player_tweets) 
+def get_player_emotion(player, twitt_name):
+    player_tweets = get_last_tweets_from_player(twitt_name)
+    emotion = ea.get_emotion_from_sentences(player_tweets, player) 
+    return emotion
 
 def get_last_tweets_from_player(player_name):
     last_commits = []
