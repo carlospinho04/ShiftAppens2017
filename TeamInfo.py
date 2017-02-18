@@ -29,16 +29,20 @@ def get_players_from_team(team_name, region):
 
     return players
 
-def get_tweets_from_team():
+def get_tweets_from_team(team_name, region):
     team_members_twitter = get_teams_members_twitter(team_name, region)
     for player_twitter in team_members_twitter:
         print "PLAYER TWITTER NAME: " + player_twitter
         ta.get_player_emotion(player_twitter)
 
-def get_kda_from_team():
+def get_info_from_team(team_name, region):
     nicks_team = get_team_nicks(team_name, region)
+    data = {}
+    players = get_players_from_team(team_name, region)
     for player in nicks_team:
-        t.game_tests(player, region)
+        data[player] = t.game_tests(player, region)
+        data[player].update({'logo': players[player]})
+    print data
         
 def get_teams_members_twitter(team_name, region):
     players_twitter = []
@@ -62,5 +66,7 @@ def get_team_nicks(team_name, region):
     for position in team_members:
         players_nick.append(team_members[position]['nick'])
 
-    return  players_stats 
+    return  players_nick 
 
+if __name__ == '__main__':
+    get_info_from_team('Fnatic', 'euw')
