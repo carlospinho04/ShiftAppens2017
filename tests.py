@@ -29,6 +29,5 @@ def game_tests(name, region):
             wins += 1
     kda = (kills + assists) / (deaths * 1.00)
     wrate = wins/10.0
-    print "WinRate: ", wrate ," KDA: " ,"%.3f" % round(kda, 3)
-    #return json.dumps({'WinRate': wrate ,'KDA':"%.3f" % round(kda,3)})
+    return json.dumps({'WinRate': wrate ,'KDA':"%.3f" % round(kda,3)})
 
