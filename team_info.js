@@ -1,5 +1,5 @@
-const URL_TeamList = "http://127.0.0.1:5000/get_teams";
-const ev_teamlist = "GET_TEAMS";
+const URL_TeamInfo = "http://127.0.0.1:5000/get_players_from_team";
+const ev_teaminfo = "GET_TEAM_INFO";
 
 (function()
 {
@@ -8,20 +8,22 @@ const ev_teamlist = "GET_TEAMS";
 }());
 
 function main(){
+	var team = localStorage.getItem("team");
+	console.log(team);
 	var region = localStorage.getItem("region");
 	var menu = document.getElementById("current");
 	console.log("Teams - " + region.toUpperCase());
 	menu.childNodes[0].innerText = "Teams - " + region.toUpperCase();
-	var displayTeams = function(ev) {
-		document.removeEventListener(ev_teamlist, displayTeams);
+	var displayTeamInfo = function(ev) {
+		document.removeEventListener(ev_teaminfo, displayTeamInfo);
 		var teams = ev.response;
 		console.log(teams);
-		Object.entries(teams).forEach(
+		/*Object.entries(teams).forEach(
     	([key, value]) => addListToHTML(key, value)
-		);
+		);*/
 	}
-	document.addEventListener(ev_teamlist, displayTeams);
-	getTeamList(region);
+	document.addEventListener(ev_teaminfo, displayTeamInfo);
+	getTeamInfo(team, region);
 
 }
 
@@ -38,17 +40,11 @@ function addListToHTML(key, value){
 	team_li.appendChild(team_div);
 	team_li.id = key;
 	teams_list.appendChild(team_li);
-	team_li.addEventListener("click", chooseTeam);
 }
 
-function chooseTeam(event){
-	localStorage.setItem("team", this.id);
-	window.open("http://127.0.0.1:9000/team_info.html","_self")
-}
-
-function getTeamList(region){
-	var params = '{"region": "'+region+'"}';
-	httpGet(URL_TeamList, params, ev_teamlist);
+function getTeamInfo(team, region){
+	var params = '{"team_name":"' + team + '", "region": "' + region + '"}';
+	httpGet(URL_TeamInfo, params, ev_teaminfo);
 }
 
 function httpGet(url, data, type){
