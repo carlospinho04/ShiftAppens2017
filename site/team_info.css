@@ -1,28 +1,29 @@
 #team_logo
 {
-    padding-inline-start: 25%;   
 	position: absolute;
-	margin-top: 5em;
-    padding-left: 5%;
+	margin-top: 10%;
+    margin-left: 5%;
+    text-align: center;
     z-index: 3;
 }
 
 #team_logo img{
-	align-items: center;
-    //padding-inline-start: 25%;   
+    
+    padding-inline-end: 15%;   
 }
 
 
 #team_name
 {
+    
+    padding-inline-end: 15%;   
+
     color: white;
     font-size: 2em;
     font-weight: bold;
     font-family: helvetica, serif;
-    
-    text-align: center;
     text-shadow: 2px 2px #000000;
-
+    text-align: center;
 }
 
 table{
