@@ -17,7 +17,7 @@ def get_players_from_team():
     if request.method == 'POST':
         team_name = request.json['team_name']
         region = request.json['region']
-    players_and_logos = ti.get_players_from_team(team_name, region)
+    players_and_logos = ti.get_info_from_team(team_name, region)
     return json.dumps(players_and_logos)
     
 
