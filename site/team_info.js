@@ -9,40 +9,64 @@ const ev_teaminfo = "GET_TEAM_INFO";
 
 function main(){
 	var team = localStorage.getItem("team");
-	console.log(team);
 	var region = localStorage.getItem("region");
-	team = 'fnatic'
-	region = 'euw'
+	var logo = localStorage.getItem("logo");
+
+
+	var team_logo = document.getElementById("team_logo");
+	var img_logo =document.createElement("img");
+	img_logo.className+='fig';
+	img_logo.src = logo;
+	img_logo.width = 125;
+	img_logo.height = 125;
+	team_logo.append(img_logo);
+
+	document.getElementById("team_name").innerHTML=team;
 
 	var menu = document.getElementById("current");
 	console.log("Teams - " + region.toUpperCase());
 	menu.childNodes[0].innerText = "Teams - " + region.toUpperCase();
 	var displayTeamInfo = function(ev) {
 		document.removeEventListener(ev_teaminfo, displayTeamInfo);
-		var teams = ev.response;
-		console.log(teams);
-		/*Object.entries(teams).forEach(
-    	([key, value]) => addListToHTML(key, value)
-		);*/
+		var team_info = ev.response;
+		Object.entries(team_info).forEach(
+    	([key, value]) => displayPlayers(key, value)
+		);
 	}
 	document.addEventListener(ev_teaminfo, displayTeamInfo);
 	getTeamInfo(team, region);
 
 }
 
-function addListToHTML(key, value){
-	var teams_list = document.getElementById("teams");
-	var team_li = document.createElement("li");
-	var team_div = document.createElement("div");
-	var team_image = document.createElement("img");
-	team_image.src = value;
-	var team_p = document.createElement("p");
-	team_p.innerHTML = key;
-	team_div.appendChild(team_image);
-	team_div.appendChild(team_p);
-	team_li.appendChild(team_div);
-	team_li.id = key;
-	teams_list.appendChild(team_li);
+function displayPlayers(key, value){
+	console.log(value);
+	var team_members = document.getElementById("team_players");
+		var player_tr = document.createElement("tr");
+		var player_pic = document.createElement("td");
+		player_pic.className+="logo";
+		var photo = document.createElement("img");
+		photo.src = value["logo"];
+		photo.height = 62;
+		photo.width = 78;
+		photo.style.borderRadius = "50%";
+		player_pic.append(photo);
+
+		var player_name = document.createElement("td");
+		player_name.innerHTML = key;
+		player_name.className+= "cell";
+		var player_kda = document.createElement("td");
+		player_kda.innerHTML = value["KDA"];
+		player_kda.className+= "cell";
+		var player_wr = document.createElement("td");
+		player_wr.innerHTML = value["WinRate"];
+		player_wr.className+= "cell";
+
+		player_tr.append(player_pic)
+		player_tr.append(player_name)
+		player_tr.append(player_kda)
+		player_tr.append(player_wr)
+		team_members.append(player_tr)
+
 }
 
 function getTeamInfo(team, region){

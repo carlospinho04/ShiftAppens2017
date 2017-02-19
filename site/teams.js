@@ -42,6 +42,7 @@ function addListToHTML(key, value){
 }
 
 function chooseTeam(event){
+	localStorage.setItem("logo",this.childNodes[0].childNodes[0].src);
 	localStorage.setItem("team", this.id);
 	window.open("http://127.0.0.1:9000/team_info.html","_self")
 }
