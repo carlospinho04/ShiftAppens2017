@@ -345,7 +345,10 @@ class RiotWatcher:
         )
 
     def get_recent_games(self, summoner_id, region=None):
-        return self._game_request('by-summoner/{summoner_id}/recent'.format(summoner_id=summoner_id), region)
+        try:
+            return self._game_request('by-summoner/{summoner_id}/recent'.format(summoner_id=summoner_id), region)
+        except:
+            return None
 
     # league-v2.5
     def _league_request(self, end_url, region, **kwargs):
@@ -612,7 +615,10 @@ class RiotWatcher:
         if (name is None) != (_id is None):
             if name is not None:
                 name = self.sanitized_name(name)
-                key, summoner = self.get_summoners(names=[name, ], region=region).popitem()
+                try:
+                    key, summoner = self.get_summoners(names=[name, ], region=region).popitem()
+                except:
+                    return None
                 return summoner
             else:
                 return self.get_summoners(ids=[_id, ], region=region)[str(_id).encode('utf-8')]

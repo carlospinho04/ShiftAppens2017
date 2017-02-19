@@ -32,6 +32,11 @@ def get_players_from_team(team_name, region):
 
     return players
 
+#def calculate_odds(team_name1, team_name2):
+    
+
+
+
 # returns logo, name, kda, winrate from players of a team
 def get_info_from_team(team_name, region):
     nicks_team = get_team_nicks(team_name, region)
@@ -40,6 +45,7 @@ def get_info_from_team(team_name, region):
     for player in nicks_team:
         data[player] = t.game_tests(player, region)
         data[player].update({'logo': players[player]})
+    print data
     return data
         
 # returns emotions from players of a team
@@ -78,4 +84,4 @@ def get_team_nicks(team_name, region):
     return  players_nick 
 
 if __name__ == '__main__':
-    get_tweets_from_team('Fnatic', 'euw')
+    get_info_from_team('Cloud9', 'na')

@@ -21,12 +21,15 @@ def game_tests(name, region):
     assists = 0
     wins = 0
     
-    for t in x['games']:
-        deaths += t['stats']['numDeaths'] if 'numDeaths' in t['stats'] else 0
-        assists += t['stats']['assists'] if 'assists' in t['stats'] else 0
-        kills += t['stats']['championsKilled'] if 'championsKilled' in t['stats'] else 0
-        if(t['stats']['win']):
-            wins += 1
+    try:
+        for t in x['games']:
+            deaths += t['stats']['numDeaths'] if 'numDeaths' in t['stats'] else 0
+            assists += t['stats']['assists'] if 'assists' in t['stats'] else 0
+            kills += t['stats']['championsKilled'] if 'championsKilled' in t['stats'] else 0
+            if(t['stats']['win']):
+                wins += 1
+    except:
+        return {'WinRate': 'N/A' ,'KDA':'N/A'}
     kda = (kills + assists) / (deaths * 1.00)
     wrate = wins/10.0
     return {'WinRate': wrate ,'KDA':"%.3f" % round(kda,3)}
