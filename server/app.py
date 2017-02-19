@@ -29,10 +29,9 @@ def get_match_odds():
         region2 = request.json['region2']
     match_odds = ti.calculate_odds(team_name1, region1, team_name2, region2)
     return json.dumps(match_odds)
-    
+
 
 
 
 if __name__ == '__main__':
     app.run()
-    

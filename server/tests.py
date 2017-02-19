@@ -33,6 +33,9 @@ def game_tests(name, region):
                 wins += 1
     except:
         return {'WinRate': 'N/A' ,'KDA':'N/A'}
-    kda = (kills + assists) / (deaths * 1.00)
+    if deaths > 0:
+        kda = (kills + assists) / (deaths * 1.00)
+    else:
+        kda = kills + assists
     wrate = wins/10.0
     return {'WinRate': wrate ,'KDA':"%.3f" % round(kda,3)}
