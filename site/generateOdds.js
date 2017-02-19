@@ -145,7 +145,9 @@ function chooseMatch(ev){
 	var info = this.id.split("_");
 	localStorage.setItem("team_name1", info[0]);
 	localStorage.setItem("region1", info[1]);
+	localStorage.setItem("team_logo1", this.childNodes[0].childNodes[0].src);
 	localStorage.setItem("team_name2", info[2]);
 	localStorage.setItem("region2", info[3]);
+	localStorage.setItem("team_logo2", this.childNodes[2].childNodes[0].src);
 	window.open("http://127.0.0.1:9000/match.html","_self")
 }

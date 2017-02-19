@@ -175,15 +175,22 @@ table{
 }
 
 .tableCell{
-    padding-top: 1em; 
+    padding-top: 1em;
     padding-right: 1em;
-    padding-left: 1em;  
+    padding-left: 1em;
     padding-bottom: 1em;
     text-align: center;
     border-bottom:  2px solid white;
 }
 
-
+.tableCell2{
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
 
 .teamNames{
     padding-top: 1em;
@@ -191,8 +198,18 @@ table{
     border-bottom:  2px solid white;
 }
 
+
+.teamNames2{
+    font-size: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
 .logo{
     padding-right: 1em;
-        border-bottom:  2px solid white;
+    border-bottom:  2px solid white;
+}
 
+.logo2{
+    padding-right: 1em;
 }
