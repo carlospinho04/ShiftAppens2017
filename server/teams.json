@@ -5,6 +5,7 @@
         {
           "name": "Fnatic",
           "logo": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/fnatic-i09wrkpf.png",
+          "ranking": "1060",
           "members":{
             "top": {
               "nick": "FNC sOAZ",
@@ -41,6 +42,7 @@
         {
           "name": "G2 Esports",
           "logo": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/g2-esports-cbnyfbkl.png",
+          "ranking": "1267",
           "members":{
             "top": {
               "nick": "G2 Expect",
@@ -61,7 +63,7 @@
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/perkz-dtst84m2.png"
             },
             "adc": {
-              "nick": "G2 Zven",
+              "nick": "G2 ZV3N",
               "name": "Jesper Svenningsen",
               "twitter": "G2Zven",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/niels-dgqxfjjf.png"
@@ -77,9 +79,10 @@
         {
           "name": "Team Vitality",
           "logo": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/vitality-2eb9w6iv.png",
+          "ranking": "1013",
           "members":{
             "top": {
-              "nick": "VIT Cabochard",
+              "nick": "Nicolas Maurer",
               "name": "Lucas Simon-Meslet",
               "twitter": "CabochardLoL",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/cabochard-d9ls3hwy.png"
@@ -91,13 +94,13 @@
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/djoko-aunalf6w.png"
             },
             "mid": {
-              "nick": "VIT Nukeduck",
+              "nick": "V nukeduck",
               "name": "Erlend Holm",
               "twitter": "nukeducklol",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/nukeduck-97lb4pb8.png"
             },
             "adc": {
-              "nick": "VIT Steeelback",
+              "nick": "V Steeelback",
               "name": "Pierre Medjaldi",
               "twitter": "Steeelb4ck",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/steeelback-6w0pq1lj.png"
@@ -113,9 +116,10 @@
         {
           "name": "Misfits",
           "logo": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/misfits-8fnvxt30.png",
+          "ranking": "1178",
           "members":{
             "top": {
-              "nick": "MSF Alphari",
+              "nick": "Alphari",
               "name": "Barney Morris",
               "twitter": "AlphariLoL",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/alphari-5ia1jj2l.png"
@@ -133,7 +137,7 @@
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/powerofevil-1q8er6wa.png"
             },
             "adc": {
-              "nick": "MSF Hans Sama",
+              "nick": "MSF Hans sama1",
               "name": "Steven Liv",
               "twitter": "HanssamaLoL",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/liv-6jorey50.png"
@@ -149,6 +153,7 @@
         {
           "name": "ROCCAT",
           "logo": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/roccat-bi4f8bs0.png",
+          "ranking": "936",
           "members":{
             "top": {
               "nick": "ROC Phaxi",
@@ -163,7 +168,7 @@
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/maxlore-4gpmlfa7.png"
             },
             "mid": {
-              "nick": "ROC Betsy",
+              "nick": "ROCCAT Betsy",
               "name": "Felix Edling",
               "twitter": "Betsy_LoL",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/betsy-aswwhpqg.png"
@@ -185,9 +190,10 @@
         {
           "name": "H2K",
           "logo": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/h2k-6mbalx6s.png",
+          "ranking": "1271",
           "members":{
             "top": {
-              "nick": "H2K Odoamne",
+              "nick": "Odoamne",
               "name": "Andrei Pascu",
               "twitter": "OdoamneLoL",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/odoamne-bcqr6snl.png"
@@ -221,6 +227,7 @@
         {
           "name": "Unicorns Of Love",
           "logo": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/unicorns-of-love-ih8ytfi8.png",
+          "ranking": "1183",
           "members":{
             "top": {
               "nick": "UOL Vizicsacsi",
@@ -241,7 +248,7 @@
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/exileh-dnn60i3i.png"
             },
             "adc": {
-              "nick": "UOL Samux",
+              "nick": "xumäS",
               "name": "Samuel Fernández Fort",
               "twitter": "SamuxLoL",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/samux-jf6ux9u.png"
@@ -257,6 +264,7 @@
         {
           "name": "Giants",
           "logo": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/giants-gaming-96kph40s.png",
+          "ranking": "991",
           "members":{
             "top": {
               "nick": "GIA Flaxxish",
@@ -293,6 +301,7 @@
         {
           "name": "Origen",
           "logo": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/origen-fwyv5cpc.png",
+          "ranking": "979",
           "members":{
             "top": {
               "nick": "OG Satorius",
@@ -307,7 +316,7 @@
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/wisdom-cis5hffk.png"
             },
             "mid": {
-              "nick": "OG Naehyun",
+              "nick": "NaeHyun",
               "name": "Nae-Hyun Yoo",
               "twitter": "OGNaeHyun",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/naehyun-fwqhcw6i.png"
@@ -329,6 +338,7 @@
         {
           "name": "Splyce",
           "logo": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/splyce-gyo3tr9y.png",
+          "ranking": "1151",
           "members":{
             "top": {
               "nick": "SPY Wunder",
@@ -337,25 +347,25 @@
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/wunderwear-b1qth5qr.png"
             },
             "jungle": {
-              "nick": "SPY Trashy",
+              "nick": "Slangekrigeren",
               "name": "Jonas Andersen",
               "twitter": "TrashyLoL",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/trashy-gcb6oqz0.png"
             },
             "mid": {
-              "nick": "SPY Sencux",
+              "nick": "Dr Phil McGraw",
               "name": "Chres Laursen",
               "twitter": "Sencux",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/sencux-5lm1z7z0.png"
             },
             "adc": {
-              "nick": "SOY Kobbe",
+              "nick": "Kobbe",
               "name": "Kasper Kobberup",
               "twitter": "KobbeLoL",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/kobbe-6otlis2w.png"
             },
             "support": {
-              "nick": "SPY Mikyx",
+              "nick": "Mikyx",
               "name": "Mihael Mehle",
               "twitter": "LoLMikyx",
               "avatar": "https://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/mikyx-1xkz8o0c.png"
@@ -369,9 +379,10 @@
         {
           "name": "Cloud9",
           "logo": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/cloud9-gnd9b0gn.png",
+          "ranking": "1324",
           "members":{
             "top": {
-              "nick": "C9 Impact",
+              "nick": "C9 EonYoung",
               "name": "Jeong Eon Young",
               "twitter": "C9Impact",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/impact-8a44ib2j.png"
@@ -405,27 +416,28 @@
         {
           "name": "TSM",
           "logo": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-solomid-cg2byxoe.png",
+          "ranking": "1278",
           "members":{
             "top": {
-              "nick": "TSM Hauntzer",
+              "nick": "ice",
               "name": "Kevin Yarnell",
               "twitter": "lolHauntzer",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/hauntzer-43lfgksv.png"
             },
             "jungle": {
-              "nick": "TSM Scenskeren",
+              "nick": "Rank 1 Go",
               "name": "Dennis Johnsen",
               "twitter": "TSMSvenskeren",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/svenskeren-20c4hfhz.png"
             },
             "mid": {
-              "nick": "TSM Bjergsen",
+              "nick": "Søren Bjerg",
               "name": "Soren Bjerg",
               "twitter": "Bjergsen",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/bjergsen-kcr5ceh.png"
             },
             "adc": {
-              "nick": "TSM WildTurtle",
+              "nick": "FZ3R0",
               "name": "Jason Tran",
               "twitter": "TSMWILDTURTLE",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/wildturtle-e5szq7wo.png"
@@ -441,6 +453,7 @@
         {
           "name": "FlyQuest",
           "logo": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/flyquest-89bnqpyh.png",
+          "ranking": "1134",
           "members":{
             "top": {
               "nick": "FLY Balls",
@@ -455,7 +468,7 @@
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/moon-9mjoh4vb.png"
             },
             "mid": {
-              "nick": "FLY Hai",
+              "nick": "FlyQ Hai",
               "name": "Hai Lam",
               "twitter": "Hai",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/hai-j1ifitj.png"
@@ -477,6 +490,7 @@
         {
           "name": "Phoenix1",
           "logo": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/phoenix1-fw17w8yu.png",
+          "ranking": "1058",
           "members":{
             "top": {
               "nick": "P1 zig",
@@ -513,9 +527,10 @@
         {
           "name": "Echo Fox",
           "logo": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/echo-fox-ejngzoa3.png",
+          "ranking": "916",
           "members":{
             "top": {
-              "nick": "FOX Looper",
+              "nick": "FOX Lo0per",
               "name": "Hyeongseok Jang",
               "twitter": "Fox_Looper",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/looper-agve6x52.png"
@@ -527,13 +542,13 @@
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/akaadian-agev57ed.png"
             },
             "mid": {
-              "nick": "FOX Froggen",
+              "nick": "Anivia Kid",
               "name": "Henrik Hansen",
               "twitter": "FroggenLoL",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/froggen-ecvbey01.png"
             },
             "adc": {
-              "nick": "FOX Keith",
+              "nick": "keith xd",
               "name": "Yuri Jew",
               "twitter": "keithmcbrief",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/keith-gmei2hih.png"
@@ -549,6 +564,7 @@
         {
           "name": "Immortals",
           "logo": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/immortals-7frapkxr.png",
+          "ranking": "1184",
           "members":{
             "top": {
               "nick": "IMT Flame",
@@ -563,7 +579,7 @@
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/dardoch-h55yqkcg.png"
             },
             "mid": {
-              "nick": "IMT Pobelter",
+              "nick": "Pobelter",
               "name": "Eugene Park",
               "twitter": "Pobelter",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/pobelter-fhjggnk7.png"
@@ -585,33 +601,34 @@
         {
           "name": "CLG",
           "logo": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/counter-logic-gaming-7wsrm3cc.png",
+          "ranking": "1146",
           "members":{
             "top": {
-              "nick": "CLG Darshan",
+              "nick": "bring back zion",
               "name": "Darshan Upadhyaya",
               "twitter": "DarshanU",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/zionspartan-2cran9xi.png"
             },
             "jungle": {
-              "nick": "CLG Xmithie",
+              "nick": "Xmithie",
               "name": "Jake Puchero",
               "twitter": "LoLXmithie",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/xmithie-bl4td512.png"
             },
             "mid": {
-              "nick": "CLG Huhi",
+              "nick": "Huhi",
               "name": "Jaehyun Choi",
               "twitter": "LOLHuHi",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/huhi-3lhy1i2q.png"
             },
             "adc": {
-              "nick": "CLG Sitxxay",
+              "nick": "S T 1 X X A Y",
               "name": "Trevor Hayes",
               "twitter": "Stixxay",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/stixxay-a699c7o2.png"
             },
             "support": {
-              "nick": "CLG aphromoo",
+              "nick": "aphromoo",
               "name": "Zaqueri Black",
               "twitter": "aphromoo",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/aphromoo-dzxe15v2.png"
@@ -621,6 +638,7 @@
         {
           "name": "Team Dignitas",
           "logo": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-dignitas-c5j84saq.png",
+          "ranking": "970",
           "members":{
             "top": {
               "nick": "DIG Ssumday",
@@ -647,7 +665,7 @@
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/lod-2y6a7mwn.png"
             },
             "support": {
-              "nick": "DIG Xpecial",
+              "nick": "Xpecial",
               "name": "Alex Chu",
               "twitter": "Xpecial",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/xpecial-d4rrlou1.png"
@@ -657,9 +675,10 @@
         {
           "name": "Team Liquid",
           "logo": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-liquid-3g983dra.png",
+          "ranking": "971",
           "members":{
             "top": {
-              "nick": "TL Lourlo",
+              "nick": "Liquid Lourlo",
               "name": "Samson Jackson",
               "twitter": "LiquidLourlo",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/lourlo-fmal547y.pn"
@@ -671,19 +690,19 @@
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/reignover-cswdikvi.png"
             },
             "mid": {
-              "nick": "TL Goldenglue",
+              "nick": "goldengluee",
               "name": "Greyson Gilmer",
               "twitter": "TL_Goldenglue",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/goldenglue-u8pe0ow.png"
             },
             "adc": {
-              "nick": "TL Piglet",
+              "nick": "Liquid Piglet",
               "name": "Gwang-jin Chae",
               "twitter": "liquidpiglett",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/piglet-4smmppa.png"
             },
             "support": {
-              "nick": "TL Matt",
+              "nick": "Liquid Matt",
               "name": "Matt Elento",
               "twitter": "Liquid_Matt",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/matt-g07k92st.png"
@@ -693,6 +712,7 @@
         {
           "name": "Team Envy",
           "logo": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/team/team-envy-1tyrikdl.png",
+          "ranking": "921",
           "members":{
             "top": {
               "nick": "NV Seraph",
@@ -707,13 +727,13 @@
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/lira-8wdoxm79.png"
             },
             "mid": {
-              "nick": "NV Ninja",
+              "nick": "NV Genji",
               "name": "Geon-Woo Noh",
               "twitter": "EnVy_Ninja",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/ninja-4csesuls.png"
             },
             "adc": {
-              "nick": "NV Apollo",
+              "nick": "",
               "name": "Apollo Price",
               "twitter": "EnVy_Apollo",
               "avatar": "http://am-a.akamaihd.net/image/?f=https://lolstatic-a.akamaihd.net/esports-assets/production/player/apollo-f14y0upb.png"
