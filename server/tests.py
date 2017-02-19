@@ -15,12 +15,15 @@ def wait():
 def game_tests(name, region):
     wait()
     summoner = w.get_summoner(name = name, region = region)
-    x = w.get_recent_games(summoner['id'], region = region)
+    try:
+        x = w.get_recent_games(summoner['id'], region = region)
+    except:
+        return {'WinRate': 'N/A' ,'KDA':'N/A'}
     kills = 0
     deaths = 0
     assists = 0
     wins = 0
-    
+
     try:
         for t in x['games']:
             deaths += t['stats']['numDeaths'] if 'numDeaths' in t['stats'] else 0
@@ -33,4 +36,3 @@ def game_tests(name, region):
     kda = (kills + assists) / (deaths * 1.00)
     wrate = wins/10.0
     return {'WinRate': wrate ,'KDA':"%.3f" % round(kda,3)}
-
