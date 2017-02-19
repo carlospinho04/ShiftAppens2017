@@ -11,6 +11,9 @@ function main(){
 	var team = localStorage.getItem("team");
 	console.log(team);
 	var region = localStorage.getItem("region");
+	team = 'fnatic'
+	region = 'euw'
+
 	var menu = document.getElementById("current");
 	console.log("Teams - " + region.toUpperCase());
 	menu.childNodes[0].innerText = "Teams - " + region.toUpperCase();
