@@ -19,6 +19,16 @@ def get_players_from_team():
         region = request.json['region']
     players_and_logos = ti.get_info_from_team(team_name, region)
     return json.dumps(players_and_logos)
+
+@app.route('/get_match_odds', methods=['GET', 'POST'])
+def get_match_odds():
+    if request.method == 'POST':
+        team_name1 = request.json['team_name1']
+        region1 = request.json['region1']
+        team_name2 = request.json['team_name2']
+        region2 = request.json['region2']
+    match_odds = ti.calculate_odds(team_name1, region1, team_name2, region2)
+    return json.dumps(match_odds)
     
 
 
