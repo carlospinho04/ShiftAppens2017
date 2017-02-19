@@ -1,0 +1,82 @@
+#team_logo
+{
+    padding-inline-start: 25%;   
+	position: absolute;
+	margin-top: 5em;
+    padding-left: 5%;
+    z-index: 3;
+}
+
+#team_logo img{
+	align-items: center;
+    //padding-inline-start: 25%;   
+}
+
+
+#team_name
+{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: helvetica, serif;
+    
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+
+}
+
+table{
+    table-layout:fixed;
+    /*border-collapse:;*/
+    border-spacing:0;
+    border-style:hidden;
+}
+
+.table2{
+	position: relative;
+    padding: 2em;
+    padding-top: 1em;
+    padding-right: 1.5em;
+    background-color: rgba(0,0,0,0.6);
+    margin:auto;
+    margin-top: 5em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+tbody{
+    vertical-align: middle;
+    border: 20;
+    border-color: red;
+}
+.header{
+	margin-top: 2em;
+	border:20 solid;
+	border-color: red;
+}
+
+.table2 tr{
+    margin-top: 1em;
+}
+
+.table2 td{
+	padding-left: 2em;
+	padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.table2 th{
+	margin-top: 2em;
+}
+
+.cell{
+    padding-top: 1em; 
+    padding-right: 1em;
+    padding-left: 1em;  
+    padding-bottom: 1em;
+    text-align: center;
+    border-bottom:  2px solid white;
+}
+
